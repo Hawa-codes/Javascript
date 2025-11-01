@@ -11,6 +11,7 @@ body {
     font-family: Arial, sans-serif;
     min-height: 100vh;
     background-color: #06b2fc;
+    margin: 0;
 }
 
 .content{
@@ -21,14 +22,12 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
     justify-content: space-around;
     gap: 2rem;
     /* padding-top: 3rem; */
@@ -50,9 +49,14 @@ h2 {
     border-radius: 7px;
     width: 5rem;
     font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
-button {
+.btns {
+    margin-left: 0.2rem;
+}
+
+#btn {
     background-color: #02023f;
     border: 1px solid white;
     border-radius: 4px;
@@ -62,9 +66,12 @@ button {
 }
 
 .new {
+    background-color: #02023f;
+    width: 4rem;
     border-radius: 4px;
     border: 1px solid white;
     color: white;
     font-size: 9px;
+    margin-left: 12rem;
     padding: 7px;
 }
