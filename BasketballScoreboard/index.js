@@ -1,20 +1,42 @@
-let increase1 = document.getElementById("count")
-let increase2 = document.getElementById("count")
-let increase3 = document.getElementById("count")
+let homeCount = 0;
+let guestCount = 0;
 
+let homeDisplay = document.getElementById("count");
+let guestDisplay = document.getElementById("countt");
 
-let count = 0;
-function increment1() {
-    count += 1
-    increase1.innerText = count
+function homeIncrement1() {
+  homeCount += 1;
+  homeDisplay.innerText = homeCount;
 }
 
-function increment2() {
-    count += 2
-    increase2.innerText = count
+function homeIncrement2() {
+  homeCount += 2;
+  homeDisplay.innerText = homeCount;
 }
 
-function increment3() {
-    count += 3
-    increase3.innerText = count
+function homeIncrement3() {
+  homeCount += 3;
+  homeDisplay.innerText = homeCount;
+}
+
+function guestIncrement1() {
+  guestCount += 1;
+  guestDisplay.innerText = guestCount;
+}
+
+function guestIncrement2() {
+  guestCount += 2;
+  guestDisplay.innerText = guestCount;
+}
+
+function guestIncrement3() {
+  guestCount += 3;
+  guestDisplay.innerText = guestCount;
+}
+
+let counter = document.getElementById("new");
+
+function newGame() {
+    document.getElementById("count").innerText = 0;
+    document.getElementById("countt").innerText = 0;
 }
