@@ -1,7 +1,4 @@
-let btns = []
-
-const container = document.getElementById("container")
-
-container.innerHTML = "<button onclick='buy()'>Buy!</button>"
-
-
+let box = document.getElementById("box")
+box.addEventListener("click", function() {
+    console.log("I wantto open the door!")
+})
