@@ -1,4 +1,8 @@
 let box = document.getElementById("box")
-box.addEventListener("click", function() {
-    console.log("I wantto open the door!")
-})
+
+box.innerHTML = "<button onclick = 'buy()'>Buy!</button>"
+
+
+function buy() {
+    box.innerHTML = "<p>Thanks for buying!</p>"
+}
