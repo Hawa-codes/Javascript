@@ -1,0 +1,215 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #e2e3e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 350px;
+}
+
+.heading {
+    display: flex;
+    gap: 9px;
+    margin-bottom: 6px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.paragraph {
+    color: darkgrey;
+}
+
+.content {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    background: purple;
+    padding: 30px 25px;
+    color: white;
+}
+
+.svg1 {
+    height: 40px;
+    width: 40px;
+    color: purple;
+}
+
+.svg2 {
+    height: 20px;
+    width: 20px;
+    color: white;
+} 
+
+.svg3 {
+    height: 20px;
+    width: 20px;
+}
+
+.head {
+    display: flex;
+}
+
+.clear {
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 2px;
+    color: white;
+}
+
+ */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #e2e3e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 420px;
+}
+
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.svg1 {
+    height: 40px;
+    width: 40px;
+    color: #6d28d9;
+    padding-top: 5px;
+}
+
+.title h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: #2d2d2d;   
+}
+
+.title p {
+    color: #777;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.top-bar {
+    background: #6d28d9;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.svg2 {
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+
+#clear-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  /* transition: 0.3 ease; */
+}
+
+.svg3 {
+    height: 20px;
+    width: 20px;
+}
+
+#clear-btn:hover {
+  background: #5b21b6;
+}
+
+
+.input-section {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+}
+
+.input-section button {
+    background: #6d28d9;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.input-section button:hover {
+  background: #5b21b6;
+}
+
+#shopping-list{
+    list-style: none;
+    padding: 0 20px 20px;
+}
+
+#shopping-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 18px;
+    margin-bottom: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+#delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
